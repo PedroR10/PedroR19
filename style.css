@@ -1,0 +1,223 @@
+/* Estilos generales para el header */
+header {
+    background-color: #7a1616; /* Cambia el color de fondo según tu diseño */
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('Revolucion.jpeg');
+
+    font-size: 120px;
+    color: #fbfbfb;
+   
+
+}
+
+/* Estilos para el logo */
+#logo img {
+    width: 140px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    display: block;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 20px; /* Ajusta el espacio entre elementos del menú */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fbfbfb; /* Cambia el color del texto del menú según tu diseño */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Agrega una transición suave al color del texto */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Cambia el color al pasar el ratón sobre los enlaces */
+}
+/* Estilos para la sección de héroe */
+.hero {
+  
+    background-size: cover;
+    color: #0a0606; /* Cambia el color del texto según tu diseño */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+
+ h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    text-align: letf 30px;
+    
+}
+header{
+    padding: 55px;
+}
+
+ p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: left ;
+    text-align: justify;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Cambia el color del botón según tu diseño */
+    color: #333; /* Cambia el color del texto del botón según tu diseño */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo del botón */
+}
+
+.cta-button:hover {
+    background-color: #e5b200; /* Cambia el color al pasar el ratón sobre el botón */
+}
+/* Estilos para la sección de dos columnas */
+.two-column-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.column {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la segunda columna (título, descripción y enlace) */
+.column h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.column p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.column a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.column a:hover {
+    background-color: #e5b200;
+}
+/* Estilos para la sección de galerías de imágenes */
+.image-galleries {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery {
+    width: 30%; /* Ajusta el ancho de la galería según tu diseño */
+    margin-bottom: 20px;
+    
+       
+    
+}
+
+.gallery h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.gallery img {
+    width: 100%; /* Ajusta el ancho de las imágenes según tu diseño */
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+/* Estilos para la sección de pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-column a {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.footer-column img {
+    width: 220px; /* Ajusta el tamaño del logo según tu diseño */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.social-buttons a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-buttons a:hover {
+    text-decoration: underline;
+}
+ 
+p{
+    text-align: justify;
+    
+        border: 1px solid #ccc; /* Borde sólido de 1 píxel de color gris claro */
+        border-radius: 5px; /* Esquinas redondeadas */
+        padding: 10px; /* Espaciado interno para mejorar la presentación */
+        
+            border: 1px solid #ccc; /* Borde sólido de 1 píxel de color gris claro */
+            box-shadow: 3px 3px 5px #888888; /* Sombra */
+            padding: 10px; /* Espaciado interno para mejorar la presentación */
+        
+                border: 2px double #333; /* Borde doble de 2 píxeles de color gris oscuro */
+                padding: 15px; /* Espaciado interno para mejorar la presentación */
+            
+            
+        
+
+    
+    
+}
+body {
+    background-color: #bebcbc; /* Cambiar a tu color preferido */
+        background: linear-gradient(to right, #d7c5bb, #c5a9aa); /* Cambiar colores según tus preferencias */
+    
+    
+}
+
+
+
